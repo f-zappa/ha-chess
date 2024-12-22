@@ -2,7 +2,7 @@
   "domain": "schachbund",
   "name": "Schachbund",
   "version": "1.0.0",
-  "documentation": "https://www.example.com",
+  "documentation": "https://www.github.com/f-zappa/ha-schachbund-sensor",
   "requirements": ["phpserialize"],
   "dependencies": [],
   "codeowners": ["@f-zappa"]
