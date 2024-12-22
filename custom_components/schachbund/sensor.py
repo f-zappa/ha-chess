@@ -7,7 +7,13 @@ import phpserialize
 SCAN_INTERVAL = timedelta(minutes=180)
 
 
-def setup_platform(hass, config, add_entities, discovery_info=None):
+def setup_platform(
+    hass: HomeAssistant,
+    config: ConfigType,
+    add_entities: AddEntitiesCallback,
+    discovery_info: DiscoveryInfoType | None = None
+) -> None:
+    """Set up the sensor platform."""
     player_id = config.get("player_id")
     add_entities([SchachbundSensor(player_id)])
 
