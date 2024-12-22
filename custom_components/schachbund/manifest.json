@@ -1,0 +1,9 @@
+{
+  "domain": "schachbund",
+  "name": "Schachbund",
+  "version": "1.0.0",
+  "documentation": "https://www.example.com",
+  "requirements": ["phpserialize"],
+  "dependencies": [],
+  "codeowners": ["@f-zappa"]
+}
