@@ -6,5 +6,8 @@
   "requirements": ["phpserialize"],
   "issue_tracker": "https://github.com/f-zappa/ha-schachbund-sensor/issues",
   "dependencies": [],
-  "codeowners": ["@f-zappa"]
+  "codeowners": ["@f-zappa"],
+  "iot_class": "cloud_polling",
+  "config_flow": "true",
+  "integration_type": "device"
 }
