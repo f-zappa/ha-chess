@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "documentation": "https://www.github.com/f-zappa/ha-schachbund-sensor",
   "requirements": ["phpserialize"],
+  "issue_tracker": "https://github.com/f-zappa/ha-schachbund-sensor/issues",
   "dependencies": [],
   "codeowners": ["@f-zappa"]
 }
