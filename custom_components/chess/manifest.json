@@ -1,0 +1,12 @@
+{
+  "domain": "chess",
+  "name": "Chess Ratings",
+  "codeowners": ["@f-zappa"],
+  "config_flow": true,
+  "dependencies": [],
+  "integration_type": "device",
+  "documentation": "https://github.com/f-zappa/ha-chess",
+  "version": "0.1.0",
+  "iot_class": "cloud_polling",
+  "requirements": ["phpserialize"]
+}

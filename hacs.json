@@ -1,12 +1,12 @@
 {
-    "name": "Schachbund",
+    "name": "chess",
     "content_in_root": false,
-    "domains": ["schachbund"],
+    "domains": ["chess"],
     "country": "DE",
     "homeassistant": "2024.1.0",
     "render_readme": true,
     "zip_release": false,
-    "filename": "custom_components/schachbund",
+    "filename": "custom_components/chess",
     "iot_class": "cloud_polling",
     "integration_type": "device",
     "codeowners": ["@f-zappa"]
